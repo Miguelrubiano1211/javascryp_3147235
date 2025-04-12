@@ -1,0 +1,33 @@
+.main {
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.celda {
+    height: 100px;
+    width: 100px;
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+}
+
+.fila {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fondo-imagen {
+background-image:url("https://images.unsplash.com/photo-1663970206579-c157cba7edda?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9uZG8lMjBkZSUyMHBhbnRhbGxhJTIwcGFyYSUyMHBjfGVufDB8fDB8fHww");
+    background-size:cover;
+    position:center;
+    height: 100vh;
+    width: 100vw;
+}
